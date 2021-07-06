@@ -1,0 +1,730 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Open = Instance.new("TextButton")
+local Open_Roundify_8px = Instance.new("ImageLabel")
+local RegenSploitMainFrame = Instance.new("ImageLabel")
+local RegenSploitGearScrollingFrame = Instance.new("ScrollingFrame")
+local Campfire = Instance.new("TextButton")
+local TextButton_Roundify_8px = Instance.new("ImageLabel")
+local Fidget = Instance.new("TextButton")
+local TextButton_Roundify_8px_2 = Instance.new("ImageLabel")
+local PGun = Instance.new("TextButton")
+local TextButton_Roundify_8px_3 = Instance.new("ImageLabel")
+local PrincessWand = Instance.new("TextButton")
+local TextButton_Roundify_8px_4 = Instance.new("ImageLabel")
+local StarbloxLatte = Instance.new("TextButton")
+local TextButton_Roundify_8px_5 = Instance.new("ImageLabel")
+local VampireVanquisher = Instance.new("TextButton")
+local TextButton_Roundify_8px_6 = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local Title_Roundify_8px = Instance.new("ImageLabel")
+local Close = Instance.new("TextButton")
+local NextPage = Instance.new("TextButton")
+local NextPage_Roundify_8px = Instance.new("ImageLabel")
+local PreviousPage = Instance.new("TextButton")
+local NextPage_Roundify_8px_2 = Instance.new("ImageLabel")
+local RegenSploitMusicScrollingFrame = Instance.new("ScrollingFrame")
+local CoffinDance = Instance.new("TextButton")
+local TextButton_Roundify_8px_7 = Instance.new("ImageLabel")
+local Vibe2 = Instance.new("TextButton")
+local TextButton_Roundify_8px_8 = Instance.new("ImageLabel")
+local MinecraftEarrape = Instance.new("TextButton")
+local TextButton_Roundify_8px_9 = Instance.new("ImageLabel")
+local WIP = Instance.new("TextButton")
+local TextButton_Roundify_8px_10 = Instance.new("ImageLabel")
+local Vibe1 = Instance.new("TextButton")
+local TextButton_Roundify_8px_11 = Instance.new("ImageLabel")
+local MotoMoto = Instance.new("TextButton")
+local TextButton_Roundify_8px_12 = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Open.BackgroundTransparency = 1.000
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(0.921221495, 0, 0.665279508, 0)
+Open.Size = UDim2.new(0.0607955195, 0, 0.0450502448, 0)
+Open.ZIndex = 2
+Open.Font = Enum.Font.SourceSansBold
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextScaled = true
+Open.TextSize = 14.000
+Open.TextWrapped = true
+
+Open_Roundify_8px.Name = "Open_Roundify_8px"
+Open_Roundify_8px.Parent = Open
+Open_Roundify_8px.Active = true
+Open_Roundify_8px.AnchorPoint = Vector2.new(0.5, 0.5)
+Open_Roundify_8px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open_Roundify_8px.BackgroundTransparency = 1.000
+Open_Roundify_8px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Open_Roundify_8px.Selectable = true
+Open_Roundify_8px.Size = UDim2.new(1, 0, 1, 0)
+Open_Roundify_8px.Image = "rbxassetid://3570695787"
+Open_Roundify_8px.ImageColor3 = Color3.fromRGB(50, 50, 50)
+Open_Roundify_8px.ScaleType = Enum.ScaleType.Slice
+Open_Roundify_8px.SliceCenter = Rect.new(100, 100, 100, 100)
+Open_Roundify_8px.SliceScale = 0.080
+
+RegenSploitMainFrame.Name = "RegenSploitMainFrame"
+RegenSploitMainFrame.Parent = ScreenGui
+RegenSploitMainFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+RegenSploitMainFrame.BackgroundTransparency = 1.000
+RegenSploitMainFrame.Position = UDim2.new(0.389204532, 0, 0.286944062, 0)
+RegenSploitMainFrame.Size = UDim2.new(0.220596597, 0, 0.423816353, 0)
+RegenSploitMainFrame.Image = "rbxassetid://3570695787"
+RegenSploitMainFrame.ImageColor3 = Color3.fromRGB(50, 50, 50)
+RegenSploitMainFrame.ScaleType = Enum.ScaleType.Slice
+RegenSploitMainFrame.SliceCenter = Rect.new(100, 100, 100, 100)
+RegenSploitMainFrame.SliceScale = 0.080
+
+RegenSploitGearScrollingFrame.Name = "RegenSploitGearScrollingFrame"
+RegenSploitGearScrollingFrame.Parent = RegenSploitMainFrame
+RegenSploitGearScrollingFrame.Active = true
+RegenSploitGearScrollingFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+RegenSploitGearScrollingFrame.BorderSizePixel = 0
+RegenSploitGearScrollingFrame.Position = UDim2.new(0, 0, 0.102800697, 0)
+RegenSploitGearScrollingFrame.Size = UDim2.new(1, 0, 0.863346875, 0)
+RegenSploitGearScrollingFrame.Visible = false
+RegenSploitGearScrollingFrame.ScrollBarThickness = 3
+
+Campfire.Name = "Campfire"
+Campfire.Parent = RegenSploitGearScrollingFrame
+Campfire.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Campfire.BackgroundTransparency = 1.000
+Campfire.BorderSizePixel = 0
+Campfire.Position = UDim2.new(0.354153246, 0, 0.0109256171, 0)
+Campfire.Size = UDim2.new(0.296587259, 0, 0.0628294423, 0)
+Campfire.ZIndex = 2
+Campfire.Font = Enum.Font.SourceSans
+Campfire.Text = "Campfire"
+Campfire.TextColor3 = Color3.fromRGB(255, 255, 255)
+Campfire.TextSize = 14.000
+
+TextButton_Roundify_8px.Name = "TextButton_Roundify_8px"
+TextButton_Roundify_8px.Parent = Campfire
+TextButton_Roundify_8px.Active = true
+TextButton_Roundify_8px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_8px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_8px.BackgroundTransparency = 1.000
+TextButton_Roundify_8px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_8px.Selectable = true
+TextButton_Roundify_8px.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_8px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_8px.ImageColor3 = Color3.fromRGB(75, 75, 75)
+TextButton_Roundify_8px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_8px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_8px.SliceScale = 0.080
+
+Fidget.Name = "Fidget"
+Fidget.Parent = RegenSploitGearScrollingFrame
+Fidget.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Fidget.BackgroundTransparency = 1.000
+Fidget.BorderSizePixel = 0
+Fidget.Position = UDim2.new(0.354153246, 0, 0.0921713859, 0)
+Fidget.Size = UDim2.new(0.296587259, 0, 0.0628294423, 0)
+Fidget.ZIndex = 2
+Fidget.Font = Enum.Font.SourceSans
+Fidget.Text = "Fidget"
+Fidget.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fidget.TextSize = 14.000
+
+TextButton_Roundify_8px_2.Name = "TextButton_Roundify_8px"
+TextButton_Roundify_8px_2.Parent = Fidget
+TextButton_Roundify_8px_2.Active = true
+TextButton_Roundify_8px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_8px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_8px_2.BackgroundTransparency = 1.000
+TextButton_Roundify_8px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_8px_2.Selectable = true
+TextButton_Roundify_8px_2.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_8px_2.Image = "rbxassetid://3570695787"
+TextButton_Roundify_8px_2.ImageColor3 = Color3.fromRGB(75, 75, 75)
+TextButton_Roundify_8px_2.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_8px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_8px_2.SliceScale = 0.080
+
+PGun.Name = "PGun"
+PGun.Parent = RegenSploitGearScrollingFrame
+PGun.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+PGun.BackgroundTransparency = 1.000
+PGun.BorderSizePixel = 0
+PGun.Position = UDim2.new(0.0257565994, 0, 0.0921713859, 0)
+PGun.Size = UDim2.new(0.296587259, 0, 0.0628294423, 0)
+PGun.ZIndex = 2
+PGun.Font = Enum.Font.SourceSans
+PGun.Text = "Portal Gun"
+PGun.TextColor3 = Color3.fromRGB(255, 255, 255)
+PGun.TextSize = 14.000
+
+TextButton_Roundify_8px_3.Name = "TextButton_Roundify_8px"
+TextButton_Roundify_8px_3.Parent = PGun
+TextButton_Roundify_8px_3.Active = true
+TextButton_Roundify_8px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_8px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_8px_3.BackgroundTransparency = 1.000
+TextButton_Roundify_8px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_8px_3.Selectable = true
+TextButton_Roundify_8px_3.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_8px_3.Image = "rbxassetid://3570695787"
+TextButton_Roundify_8px_3.ImageColor3 = Color3.fromRGB(75, 75, 75)
+TextButton_Roundify_8px_3.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_8px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_8px_3.SliceScale = 0.080
+
+PrincessWand.Name = "Princess Wand"
+PrincessWand.Parent = RegenSploitGearScrollingFrame
+PrincessWand.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+PrincessWand.BackgroundTransparency = 1.000
+PrincessWand.BorderSizePixel = 0
+PrincessWand.Position = UDim2.new(0.676110804, 0, 0.0921713859, 0)
+PrincessWand.Size = UDim2.new(0.296587259, 0, 0.0628294423, 0)
+PrincessWand.ZIndex = 2
+PrincessWand.Font = Enum.Font.SourceSans
+PrincessWand.Text = "Princess"
+PrincessWand.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrincessWand.TextSize = 14.000
+
+TextButton_Roundify_8px_4.Name = "TextButton_Roundify_8px"
+TextButton_Roundify_8px_4.Parent = PrincessWand
+TextButton_Roundify_8px_4.Active = true
+TextButton_Roundify_8px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_8px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_8px_4.BackgroundTransparency = 1.000
+TextButton_Roundify_8px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_8px_4.Selectable = true
+TextButton_Roundify_8px_4.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_8px_4.Image = "rbxassetid://3570695787"
+TextButton_Roundify_8px_4.ImageColor3 = Color3.fromRGB(75, 75, 75)
+TextButton_Roundify_8px_4.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_8px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_8px_4.SliceScale = 0.080
+
+StarbloxLatte.Name = "Starblox Latte"
+StarbloxLatte.Parent = RegenSploitGearScrollingFrame
+StarbloxLatte.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+StarbloxLatte.BackgroundTransparency = 1.000
+StarbloxLatte.BorderSizePixel = 0
+StarbloxLatte.Position = UDim2.new(0.676110804, 0, 0.0109256171, 0)
+StarbloxLatte.Size = UDim2.new(0.296587259, 0, 0.0628294423, 0)
+StarbloxLatte.ZIndex = 3
+StarbloxLatte.Font = Enum.Font.SourceSans
+StarbloxLatte.Text = "Latte"
+StarbloxLatte.TextColor3 = Color3.fromRGB(255, 255, 255)
+StarbloxLatte.TextSize = 14.000
+
+TextButton_Roundify_8px_5.Name = "TextButton_Roundify_8px"
+TextButton_Roundify_8px_5.Parent = StarbloxLatte
+TextButton_Roundify_8px_5.Active = true
+TextButton_Roundify_8px_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_8px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_8px_5.BackgroundTransparency = 1.000
+TextButton_Roundify_8px_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_8px_5.Selectable = true
+TextButton_Roundify_8px_5.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_8px_5.Image = "rbxassetid://3570695787"
+TextButton_Roundify_8px_5.ImageColor3 = Color3.fromRGB(75, 75, 75)
+TextButton_Roundify_8px_5.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_8px_5.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_8px_5.SliceScale = 0.080
+
+VampireVanquisher.Name = "Vampire Vanquisher"
+VampireVanquisher.Parent = RegenSploitGearScrollingFrame
+VampireVanquisher.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+VampireVanquisher.BackgroundTransparency = 1.000
+VampireVanquisher.BorderSizePixel = 0
+VampireVanquisher.Position = UDim2.new(0.0257565994, 0, 0.0109256171, 0)
+VampireVanquisher.Size = UDim2.new(0.296587259, 0, 0.0628294423, 0)
+VampireVanquisher.ZIndex = 2
+VampireVanquisher.Font = Enum.Font.SourceSans
+VampireVanquisher.Text = "Vampire"
+VampireVanquisher.TextColor3 = Color3.fromRGB(255, 255, 255)
+VampireVanquisher.TextSize = 14.000
+
+TextButton_Roundify_8px_6.Name = "TextButton_Roundify_8px"
+TextButton_Roundify_8px_6.Parent = VampireVanquisher
+TextButton_Roundify_8px_6.Active = true
+TextButton_Roundify_8px_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_8px_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_8px_6.BackgroundTransparency = 1.000
+TextButton_Roundify_8px_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_8px_6.Selectable = true
+TextButton_Roundify_8px_6.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_8px_6.Image = "rbxassetid://3570695787"
+TextButton_Roundify_8px_6.ImageColor3 = Color3.fromRGB(75, 75, 75)
+TextButton_Roundify_8px_6.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_8px_6.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_8px_6.SliceScale = 0.080
+
+Title.Name = "Title"
+Title.Parent = RegenSploitMainFrame
+Title.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0408344045, 0, -0.00338518876, 0)
+Title.Size = UDim2.new(0.920530498, 0, 0.0824892223, 0)
+Title.ZIndex = 2
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "RegenSploit Gears"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Title_Roundify_8px.Name = "Title_Roundify_8px"
+Title_Roundify_8px.Parent = Title
+Title_Roundify_8px.AnchorPoint = Vector2.new(0.5, 0.5)
+Title_Roundify_8px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_Roundify_8px.BackgroundTransparency = 1.000
+Title_Roundify_8px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Title_Roundify_8px.Size = UDim2.new(1.08972549, 0, 1.24623179, 0)
+Title_Roundify_8px.Image = "rbxassetid://3570695787"
+Title_Roundify_8px.ImageColor3 = Color3.fromRGB(70, 70, 70)
+Title_Roundify_8px.ScaleType = Enum.ScaleType.Slice
+Title_Roundify_8px.SliceCenter = Rect.new(100, 100, 100, 100)
+Title_Roundify_8px.SliceScale = 0.080
+
+Close.Name = "Close"
+Close.Parent = Title
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.921316087, 0, -0.153768778, 0)
+Close.Size = UDim2.new(0.122859292, 0, 0.958961725, 0)
+Close.Font = Enum.Font.SourceSansBold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(135, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+NextPage.Name = "NextPage"
+NextPage.Parent = RegenSploitMainFrame
+NextPage.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+NextPage.BackgroundTransparency = 1.000
+NextPage.BorderSizePixel = 0
+NextPage.Position = UDim2.new(0.502606094, 0, 0.997215748, 0)
+NextPage.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
+NextPage.ZIndex = 2
+NextPage.Font = Enum.Font.SourceSans
+NextPage.Text = "▶"
+NextPage.TextColor3 = Color3.fromRGB(255, 255, 255)
+NextPage.TextSize = 14.000
+
+NextPage_Roundify_8px.Name = "NextPage_Roundify_8px"
+NextPage_Roundify_8px.Parent = NextPage
+NextPage_Roundify_8px.Active = true
+NextPage_Roundify_8px.AnchorPoint = Vector2.new(0.5, 0.5)
+NextPage_Roundify_8px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NextPage_Roundify_8px.BackgroundTransparency = 1.000
+NextPage_Roundify_8px.Position = UDim2.new(0.5, 0, 0.5, 0)
+NextPage_Roundify_8px.Selectable = true
+NextPage_Roundify_8px.Size = UDim2.new(1, 0, 1, 0)
+NextPage_Roundify_8px.Image = "rbxassetid://3570695787"
+NextPage_Roundify_8px.ImageColor3 = Color3.fromRGB(50, 50, 50)
+NextPage_Roundify_8px.ScaleType = Enum.ScaleType.Slice
+NextPage_Roundify_8px.SliceCenter = Rect.new(100, 100, 100, 100)
+NextPage_Roundify_8px.SliceScale = 0.080
+
+PreviousPage.Name = "PreviousPage"
+PreviousPage.Parent = RegenSploitMainFrame
+PreviousPage.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+PreviousPage.BackgroundTransparency = 1.000
+PreviousPage.BorderSizePixel = 0
+PreviousPage.Position = UDim2.new(0.400478333, 0, 0.997215748, 0)
+PreviousPage.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
+PreviousPage.Visible = false
+PreviousPage.ZIndex = 2
+PreviousPage.Font = Enum.Font.SourceSans
+PreviousPage.Text = "◀"
+PreviousPage.TextColor3 = Color3.fromRGB(255, 255, 255)
+PreviousPage.TextSize = 14.000
+
+NextPage_Roundify_8px_2.Name = "NextPage_Roundify_8px"
+NextPage_Roundify_8px_2.Parent = PreviousPage
+NextPage_Roundify_8px_2.Active = true
+NextPage_Roundify_8px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+NextPage_Roundify_8px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NextPage_Roundify_8px_2.BackgroundTransparency = 1.000
+NextPage_Roundify_8px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+NextPage_Roundify_8px_2.Selectable = true
+NextPage_Roundify_8px_2.Size = UDim2.new(1, 0, 1, 0)
+NextPage_Roundify_8px_2.Image = "rbxassetid://3570695787"
+NextPage_Roundify_8px_2.ImageColor3 = Color3.fromRGB(50, 50, 50)
+NextPage_Roundify_8px_2.ScaleType = Enum.ScaleType.Slice
+NextPage_Roundify_8px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+NextPage_Roundify_8px_2.SliceScale = 0.080
+
+RegenSploitMusicScrollingFrame.Name = "RegenSploitMusicScrollingFrame"
+RegenSploitMusicScrollingFrame.Parent = RegenSploitMainFrame
+RegenSploitMusicScrollingFrame.Active = true
+RegenSploitMusicScrollingFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+RegenSploitMusicScrollingFrame.BorderSizePixel = 0
+RegenSploitMusicScrollingFrame.Position = UDim2.new(0, 0, 0.103, 0)
+RegenSploitMusicScrollingFrame.Size = UDim2.new(1, 0, 0.862999976, 0)
+RegenSploitMusicScrollingFrame.ScrollBarThickness = 3
+
+CoffinDance.Name = "Coffin Dance"
+CoffinDance.Parent = RegenSploitMusicScrollingFrame
+CoffinDance.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+CoffinDance.BackgroundTransparency = 1.000
+CoffinDance.BorderSizePixel = 0
+CoffinDance.Position = UDim2.new(0.354153246, 0, 0.0109256171, 0)
+CoffinDance.Size = UDim2.new(0.296587259, 0, 0.0628294423, 0)
+CoffinDance.ZIndex = 2
+CoffinDance.Font = Enum.Font.SourceSans
+CoffinDance.Text = "Coffin Dance"
+CoffinDance.TextColor3 = Color3.fromRGB(255, 255, 255)
+CoffinDance.TextSize = 14.000
+
+TextButton_Roundify_8px_7.Name = "TextButton_Roundify_8px"
+TextButton_Roundify_8px_7.Parent = CoffinDance
+TextButton_Roundify_8px_7.Active = true
+TextButton_Roundify_8px_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_8px_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_8px_7.BackgroundTransparency = 1.000
+TextButton_Roundify_8px_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_8px_7.Selectable = true
+TextButton_Roundify_8px_7.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_8px_7.Image = "rbxassetid://3570695787"
+TextButton_Roundify_8px_7.ImageColor3 = Color3.fromRGB(75, 75, 75)
+TextButton_Roundify_8px_7.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_8px_7.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_8px_7.SliceScale = 0.080
+
+Vibe2.Name = "Vibe 2"
+Vibe2.Parent = RegenSploitMusicScrollingFrame
+Vibe2.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Vibe2.BackgroundTransparency = 1.000
+Vibe2.BorderSizePixel = 0
+Vibe2.Position = UDim2.new(0.354153246, 0, 0.0921713859, 0)
+Vibe2.Size = UDim2.new(0.296587259, 0, 0.0628294423, 0)
+Vibe2.ZIndex = 2
+Vibe2.Font = Enum.Font.SourceSans
+Vibe2.Text = "Vibe 2"
+Vibe2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Vibe2.TextSize = 14.000
+
+TextButton_Roundify_8px_8.Name = "TextButton_Roundify_8px"
+TextButton_Roundify_8px_8.Parent = Vibe2
+TextButton_Roundify_8px_8.Active = true
+TextButton_Roundify_8px_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_8px_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_8px_8.BackgroundTransparency = 1.000
+TextButton_Roundify_8px_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_8px_8.Selectable = true
+TextButton_Roundify_8px_8.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_8px_8.Image = "rbxassetid://3570695787"
+TextButton_Roundify_8px_8.ImageColor3 = Color3.fromRGB(75, 75, 75)
+TextButton_Roundify_8px_8.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_8px_8.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_8px_8.SliceScale = 0.080
+
+MinecraftEarrape.Name = "Minecraft Earrape"
+MinecraftEarrape.Parent = RegenSploitMusicScrollingFrame
+MinecraftEarrape.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+MinecraftEarrape.BackgroundTransparency = 1.000
+MinecraftEarrape.BorderSizePixel = 0
+MinecraftEarrape.Position = UDim2.new(0.0257565994, 0, 0.0921713859, 0)
+MinecraftEarrape.Size = UDim2.new(0.296587259, 0, 0.0628294423, 0)
+MinecraftEarrape.ZIndex = 2
+MinecraftEarrape.Font = Enum.Font.SourceSans
+MinecraftEarrape.Text = "Earrape"
+MinecraftEarrape.TextColor3 = Color3.fromRGB(255, 255, 255)
+MinecraftEarrape.TextSize = 14.000
+
+TextButton_Roundify_8px_9.Name = "TextButton_Roundify_8px"
+TextButton_Roundify_8px_9.Parent = MinecraftEarrape
+TextButton_Roundify_8px_9.Active = true
+TextButton_Roundify_8px_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_8px_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_8px_9.BackgroundTransparency = 1.000
+TextButton_Roundify_8px_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_8px_9.Selectable = true
+TextButton_Roundify_8px_9.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_8px_9.Image = "rbxassetid://3570695787"
+TextButton_Roundify_8px_9.ImageColor3 = Color3.fromRGB(75, 75, 75)
+TextButton_Roundify_8px_9.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_8px_9.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_8px_9.SliceScale = 0.080
+
+WIP.Name = "WIP"
+WIP.Parent = RegenSploitMusicScrollingFrame
+WIP.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+WIP.BackgroundTransparency = 1.000
+WIP.BorderSizePixel = 0
+WIP.Position = UDim2.new(0.676110804, 0, 0.0921713859, 0)
+WIP.Size = UDim2.new(0.296587259, 0, 0.0628294423, 0)
+WIP.ZIndex = 2
+WIP.Font = Enum.Font.SourceSans
+WIP.Text = "WIP"
+WIP.TextColor3 = Color3.fromRGB(255, 255, 255)
+WIP.TextSize = 14.000
+
+TextButton_Roundify_8px_10.Name = "TextButton_Roundify_8px"
+TextButton_Roundify_8px_10.Parent = WIP
+TextButton_Roundify_8px_10.Active = true
+TextButton_Roundify_8px_10.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_8px_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_8px_10.BackgroundTransparency = 1.000
+TextButton_Roundify_8px_10.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_8px_10.Selectable = true
+TextButton_Roundify_8px_10.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_8px_10.Image = "rbxassetid://3570695787"
+TextButton_Roundify_8px_10.ImageColor3 = Color3.fromRGB(75, 75, 75)
+TextButton_Roundify_8px_10.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_8px_10.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_8px_10.SliceScale = 0.080
+
+Vibe1.Name = "Vibe 1"
+Vibe1.Parent = RegenSploitMusicScrollingFrame
+Vibe1.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Vibe1.BackgroundTransparency = 1.000
+Vibe1.BorderSizePixel = 0
+Vibe1.Position = UDim2.new(0.676110804, 0, 0.0109256171, 0)
+Vibe1.Size = UDim2.new(0.296587259, 0, 0.0628294423, 0)
+Vibe1.ZIndex = 3
+Vibe1.Font = Enum.Font.SourceSans
+Vibe1.Text = "Vibe 1"
+Vibe1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Vibe1.TextSize = 14.000
+
+TextButton_Roundify_8px_11.Name = "TextButton_Roundify_8px"
+TextButton_Roundify_8px_11.Parent = Vibe1
+TextButton_Roundify_8px_11.Active = true
+TextButton_Roundify_8px_11.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_8px_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_8px_11.BackgroundTransparency = 1.000
+TextButton_Roundify_8px_11.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_8px_11.Selectable = true
+TextButton_Roundify_8px_11.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_8px_11.Image = "rbxassetid://3570695787"
+TextButton_Roundify_8px_11.ImageColor3 = Color3.fromRGB(75, 75, 75)
+TextButton_Roundify_8px_11.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_8px_11.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_8px_11.SliceScale = 0.080
+
+MotoMoto.Name = "Moto Moto"
+MotoMoto.Parent = RegenSploitMusicScrollingFrame
+MotoMoto.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+MotoMoto.BackgroundTransparency = 1.000
+MotoMoto.BorderSizePixel = 0
+MotoMoto.Position = UDim2.new(0.0257565994, 0, 0.0109256171, 0)
+MotoMoto.Size = UDim2.new(0.296587259, 0, 0.0628294423, 0)
+MotoMoto.ZIndex = 2
+MotoMoto.Font = Enum.Font.SourceSans
+MotoMoto.Text = "Moto Moto"
+MotoMoto.TextColor3 = Color3.fromRGB(255, 255, 255)
+MotoMoto.TextSize = 14.000
+
+TextButton_Roundify_8px_12.Name = "TextButton_Roundify_8px"
+TextButton_Roundify_8px_12.Parent = MotoMoto
+TextButton_Roundify_8px_12.Active = true
+TextButton_Roundify_8px_12.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_8px_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_8px_12.BackgroundTransparency = 1.000
+TextButton_Roundify_8px_12.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_8px_12.Selectable = true
+TextButton_Roundify_8px_12.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_8px_12.Image = "rbxassetid://3570695787"
+TextButton_Roundify_8px_12.ImageColor3 = Color3.fromRGB(75, 75, 75)
+TextButton_Roundify_8px_12.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_8px_12.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_8px_12.SliceScale = 0.080
+
+-- Scripts:
+
+local function QELDENK_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		script.Parent.Parent.RegenSploitMainFrame.Visible = true
+		
+		script.Parent.Visible = false
+		
+	end)
+end
+coroutine.wrap(QELDENK_fake_script)()
+local function CXYZ_fake_script() -- ScreenGui.Drag 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	frame = script.Parent.RegenSploitMainFrame
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(CXYZ_fake_script)()
+local function PFWO_fake_script() -- Campfire.LocalScript 
+	local script = Instance.new('LocalScript', Campfire)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players:Chat("gear me 00000000000000000000000000000000000123234510")
+	
+	end)
+end
+coroutine.wrap(PFWO_fake_script)()
+local function GATPCAX_fake_script() -- Fidget.LocalScript 
+	local script = Instance.new('LocalScript', Fidget)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players:Chat("gear me 00000000000000000000000000000000000928806888")
+	
+	end)
+end
+coroutine.wrap(GATPCAX_fake_script)()
+local function KWEW_fake_script() -- PGun.LocalScript 
+	local script = Instance.new('LocalScript', PGun)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players:Chat("gear me 0000000000000000000000000000000000034870758")
+	
+	end)
+end
+coroutine.wrap(KWEW_fake_script)()
+local function GTCTOFS_fake_script() -- PrincessWand.LocalScript 
+	local script = Instance.new('LocalScript', PrincessWand)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players:Chat("gear me 00000000000000000000000000000000000114020480")
+	
+	end)
+end
+coroutine.wrap(GTCTOFS_fake_script)()
+local function XJHKGAN_fake_script() -- StarbloxLatte.LocalScript 
+	local script = Instance.new('LocalScript', StarbloxLatte)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players:Chat("gear me 0000000000000000000000000000000000015932306")
+	
+	end)
+end
+coroutine.wrap(XJHKGAN_fake_script)()
+local function VNPGU_fake_script() -- VampireVanquisher.LocalScript 
+	local script = Instance.new('LocalScript', VampireVanquisher)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		game.Players:Chat("gear me 0000000000000000000000000000000000094794847")
+		
+	end)
+end
+coroutine.wrap(VNPGU_fake_script)()
+local function AHQTUV_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		script.Parent.Parent.Parent.Visible = false
+		
+		script.Parent.Parent.Parent.Parent.Open.Visible = true
+		
+	end)
+end
+coroutine.wrap(AHQTUV_fake_script)()
+local function QROIGMW_fake_script() -- NextPage.LocalScript 
+	local script = Instance.new('LocalScript', NextPage)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		script.Parent.Parent.RegenSploitMusicScrollingFrame.Visible = true
+		
+		script.Parent.Parent.RegenSploitGearScrollingFrame.Visible = false
+		
+		script.Parent.Visible = false
+		
+		script.Parent.Parent.PreviousPage.Visible = true
+		
+	end)
+end
+coroutine.wrap(QROIGMW_fake_script)()
+local function JKRZUDS_fake_script() -- PreviousPage.LocalScript 
+	local script = Instance.new('LocalScript', PreviousPage)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		script.Parent.Parent.RegenSploitGearScrollingFrame.Visible = true
+		
+		script.Parent.Parent.RegenSploitMusicScrollingFrame.Visible = false
+	
+		script.Parent.Visible = false
+	
+		script.Parent.Parent.NextPage.Visible = true
+	
+	end)
+end
+coroutine.wrap(JKRZUDS_fake_script)()
+local function DWNY_fake_script() -- CoffinDance.LocalScript 
+	local script = Instance.new('LocalScript', CoffinDance)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players:Chat("music 000000000000000000000000000000000005180097131")
+	
+	end)
+end
+coroutine.wrap(DWNY_fake_script)()
+local function GGGLFD_fake_script() -- Vibe2.LocalScript 
+	local script = Instance.new('LocalScript', Vibe2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players:Chat("music 000000000000000000000000000000000001536578069")
+	
+	end)
+end
+coroutine.wrap(GGGLFD_fake_script)()
+local function RDCHP_fake_script() -- MinecraftEarrape.LocalScript 
+	local script = Instance.new('LocalScript', MinecraftEarrape)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players:Chat("music 000000000000000000000000000000000004117455588")
+	
+	end)
+end
+coroutine.wrap(RDCHP_fake_script)()
+local function FHDAZC_fake_script() -- WIP.LocalScript 
+	local script = Instance.new('LocalScript', WIP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players:Chat("wip")
+	
+	end)
+end
+coroutine.wrap(FHDAZC_fake_script)()
+local function ZABB_fake_script() -- Vibe1.LocalScript 
+	local script = Instance.new('LocalScript', Vibe1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players:Chat("music 000000000000000000000000000000000002547166362")
+	
+	end)
+end
+coroutine.wrap(ZABB_fake_script)()
+local function HPOB_fake_script() -- MotoMoto.LocalScript 
+	local script = Instance.new('LocalScript', MotoMoto)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		game.Players:Chat("music 000000000000000000000000000000000004117455588")
+		
+	end)
+end
+coroutine.wrap(HPOB_fake_script)()
